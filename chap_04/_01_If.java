@@ -21,7 +21,7 @@ public class _01_If {
         hour = 10;
         boolean sleep = false; // 잠
         // if (hour < 14 && sleep == false){
-        if (hour < 14 && !sleep){
+        if (hour < 14 && !sleep) {
             System.out.println("몬스터 에너지 드링크 +1");
         }
         System.out.println("음료 주문 완료 #2");
@@ -29,7 +29,7 @@ public class _01_If {
         // 오후 2시 이후이거나 잠을 충분히 많이 잔 경우?
         hour = 10;
         sleep = true;
-        if(hour >= 14 || sleep){
+        if(hour >= 14 || sleep) {
             System.out.println("이온음료 +1");
         }
         System.out.println("음료 주문 완료 #3");
