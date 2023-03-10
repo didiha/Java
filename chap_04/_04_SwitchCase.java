@@ -54,5 +54,21 @@ public class _04_SwitchCase {
                 System.out.println("등록금 차감 없음");
         }
         System.out.println("조회 완료 #3");
+
+        // 중고상품의 등급에 따른 가격을 책정 (1급: 최상 <-> 4급: 최하)
+        int grade = 2; // 등급
+        int price = 7000; // 가격
+
+        switch(grade){
+            case 1:
+                price += 1000;
+                // break 가 없어서 case 2 의 명령이 실행됨. 이어서 case 3 명령도 실행됨.
+            case 2:
+                price += 1000;
+            case 3:
+                price += 1000;
+                break;
+        }
+        System.out.println(grade + "등급 제품의 가격" + ": " + price + "원");
     }
 }
