@@ -29,6 +29,27 @@ public class _05_For {
             // System.out.println("환영합니다. ㅇㅇ입니다." + i);
             System.out.println("환영합니다. ㅁㅁ입니다." + i);
         }
+        // 짝수만 출력 (fori 적고 엔터 치면 자동으로 for문 작성됨)
+        for (int i = 0; i < 10; i += 2){
+            System.out.print(i + " ");
+        }
+        System.out.println();
+        // 홀수만 출력
+        for (int i = 1; i < 10; i += 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+        // 숫자를 거꾸로 출력
+        for (int i = 5; i > 0; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
 
+        // 1 + 2 + 3 ... + 10 = 55
+        int sum = 0;
+        for (int i = 1; i <= 10; i++) {
+            sum += i;
+        }
+        System.out.println(sum);
     }
 }
