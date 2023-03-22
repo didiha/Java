@@ -32,5 +32,13 @@ public class _03_MultiArray {
 
         // A5에 접근하려면
         // System.out.println(seats2[0][4]); // <<< 오류뜸
+
+        // 3차원 배열 (가로 x 세로 x 높이)
+        /* String[][][] marray = new String[3][3][3]{
+            {{}, {}, {}},
+            {{}, {}, {}},
+            {{}, {}, {}}
+        };
+        */
     }
 }
