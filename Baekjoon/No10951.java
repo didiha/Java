@@ -11,8 +11,7 @@ public class No10951 {
             StringTokenizer st = new StringTokenizer(str, " ");
             int A = Integer.parseInt(st.nextToken());
             int B = Integer.parseInt(st.nextToken());
-            sb.append(A + B );
-            sb.append("\n");
+            sb.append(A + B + "/n");
         }
         System.out.println(sb);
     }
