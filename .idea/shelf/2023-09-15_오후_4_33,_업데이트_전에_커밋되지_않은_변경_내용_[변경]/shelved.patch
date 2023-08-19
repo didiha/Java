@@ -1,0 +1,44 @@
+Index: chap_06/_08_MainMethod.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package chap_06;\r\n\r\npublic class _08_MainMethod {\r\n    public static void main(String[] args) {\r\n        for (String s: args) {\r\n            System.out.println(s);\r\n        }\r\n\r\n        // 1. 책 조회\r\n        // 2. 책 대출\r\n        // 3. 책 반납\r\n\r\n        if(args.length == 1){\r\n            switch (args[0]) {\r\n                case \"1\":\r\n                    System.out.println(\"책 조회 메뉴입니다.\");\r\n                    break;\r\n                case \"2\":\r\n                    System.out.println(\"책 대출 메뉴입니다.\");\r\n                    break;\r\n                case \"3\":\r\n                    System.out.println(\"책 반납 메뉴입니다.\");\r\n                    break;\r\n                default:\r\n                    System.out.println(\"잘못 입력하셨습니다.\");\r\n            }\r\n        }\r\n        else{\r\n                System.out.println(\"사용법) 1~3 메뉴 중 하나를 선택하세요.\");\r\n            }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chap_06/_08_MainMethod.java b/chap_06/_08_MainMethod.java
+--- a/chap_06/_08_MainMethod.java	(revision b0ba3760158f49d438e61b7185605594359b5c9c)
++++ b/chap_06/_08_MainMethod.java	(date 1692597103373)
+@@ -2,31 +2,6 @@
+ 
+ public class _08_MainMethod {
+     public static void main(String[] args) {
+-        for (String s: args) {
+-            System.out.println(s);
+-        }
+ 
+-        // 1. 책 조회
+-        // 2. 책 대출
+-        // 3. 책 반납
+-
+-        if(args.length == 1){
+-            switch (args[0]) {
+-                case "1":
+-                    System.out.println("책 조회 메뉴입니다.");
+-                    break;
+-                case "2":
+-                    System.out.println("책 대출 메뉴입니다.");
+-                    break;
+-                case "3":
+-                    System.out.println("책 반납 메뉴입니다.");
+-                    break;
+-                default:
+-                    System.out.println("잘못 입력하셨습니다.");
+-            }
+-        }
+-        else{
+-                System.out.println("사용법) 1~3 메뉴 중 하나를 선택하세요.");
+-            }
+     }
+-}
++}
+\ No newline at end of file
