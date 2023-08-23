@@ -12,10 +12,6 @@ public class No10810 {
         int M = Integer.parseInt(st.nextToken());
         int[] array = new int[N];
 
-        for (int i = 0; i < N; i++) {
-            array[i] = 0;
-        }
-
         while(M != 0){
             st = new StringTokenizer(br.readLine(), " ");
             int i = Integer.parseInt(st.nextToken());
