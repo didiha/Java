@@ -12,5 +12,9 @@ public class No27866 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+
+        br.close();
+        bw.flush();
+        bw.close();
     }
 }
