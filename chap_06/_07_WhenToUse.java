@@ -1,6 +1,6 @@
 package chap_06;
 
-public class _06_WhenToUse {
+public class _07_WhenToUse {
     public static int getPower(int number, int exponent){
         int result = 1;
         for (int i = 0; i < exponent; i++) {

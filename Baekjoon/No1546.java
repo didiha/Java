@@ -10,26 +10,23 @@ public class No1546 {
         StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
-        int[] array = new int[N];
-        int M = array[0];
-        int sum = 0;
+        double[] array = new double[N];
+        double max = 0;
+        double sum = 0;
 
         st = new StringTokenizer(br.readLine(), " ");
         for (int i = 0; i < N; i++) {
-            array[i] = Integer.parseInt(st.nextToken());
-            if(M < array[i])
-                M = array[i];
+            array[i] = Double.parseDouble(st.nextToken());
+            if(max < array[i])
+                max = array[i];
         }
-        bw.write(M + "\n");
+
         for (int i = 0; i < N; i++) {
-            bw.write(array[i] + " ");
-            bw.write(array[i] / M + " ");
-            bw.write(array[i] / M * 100 + " ");
-            array[i] = (array[i] / M) * 100;
-            bw.write(array[i] + "\n");
+            array[i] = array[i] / max * 100;
             sum += array[i];
         }
-        bw.write((float)sum / N + "\n");
+
+        bw.write(sum / N + "\n");
 
         br.close();
         bw.flush();
