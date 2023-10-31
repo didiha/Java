@@ -7,6 +7,13 @@ public class No11654 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        char C;
+        String s = br.readLine();
+        char c = s.charAt(0);
+
+        bw.write((int)c + "\n");
+
+        br.close();
+        bw.flush();
+        bw.close();
     }
 }
