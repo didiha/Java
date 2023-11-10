@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff65a7a8-1242-4ce9-9f62-63f06af7d374" name="변경" comment="20231108">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/No10809.java" afterDir="false" />
+    <list default="true" id="ff65a7a8-1242-4ce9-9f62-63f06af7d374" name="변경" comment="20231109">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699446303275</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="20231109">
+      <created>1699532868078</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699532868078</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,7 +260,8 @@
     <MESSAGE value="20231103" />
     <MESSAGE value="20231104" />
     <MESSAGE value="20231108" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231108" />
+    <MESSAGE value="20231109" />
+    <option name="LAST_COMMIT_MESSAGE" value="20231109" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
