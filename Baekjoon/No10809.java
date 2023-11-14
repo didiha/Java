@@ -13,7 +13,7 @@ public class No10809 {
             array[i] = 0;
 
         for (int i = 0; i < S.length(); i++) {
-            System.out.println("8\n"+);
+            System.out.println("8\n");
         }
     }
 }
