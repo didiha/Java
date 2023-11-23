@@ -10,10 +10,21 @@ public class No10809 {
         String S = br.readLine();
 
         for (int i = 0; i < 26; i++)
-            array[i] = 0;
+            array[i] = -1;
 
         for (int i = 0; i < S.length(); i++) {
-            System.out.println("8\n");
+            for (int j = 0; j < 26; j++) {
+                if ((S.charAt(i)) - 97 == j && array[j] == -1)
+                    array[j] = i;
+            }
         }
+
+        for (int i = 0; i < 26; i++) {
+            bw.write(array[i] + " ");
+        }
+
+        br.close();
+        bw.flush();
+        bw.close();
     }
 }
