@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff65a7a8-1242-4ce9-9f62-63f06af7d374" name="변경" comment="20231128" />
+    <list default="true" id="ff65a7a8-1242-4ce9-9f62-63f06af7d374" name="변경" comment="20231129" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -316,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701178039163</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="20231129">
+      <created>1701197648188</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1701197648188</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +338,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20231007" />
     <MESSAGE value="20231009" />
     <MESSAGE value="20231011" />
     <MESSAGE value="20231012" />
@@ -356,7 +362,8 @@
     <MESSAGE value="20231124" />
     <MESSAGE value="20231127" />
     <MESSAGE value="20231128" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231128" />
+    <MESSAGE value="20231129" />
+    <option name="LAST_COMMIT_MESSAGE" value="20231129" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
