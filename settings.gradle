@@ -1,0 +1,4 @@
+package com.hcring.backup
+
+rootProject.name = 'chap01-literal-and-varable-lecture-source'
+
